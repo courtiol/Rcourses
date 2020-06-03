@@ -15,6 +15,32 @@ knitr::opts_chunk$set(echo = TRUE)
 options(width = 110)
 ```
 
+## A new major release of **{dplyr}** just came out...
+
+```{r, eval = FALSE}
+update.packages() ## to update your {dplyr} or install.packages("dplyr") for new users
+```
+
+<p>
+<img src="./img/dplyr_logo_old.jpg" width="200" align="left">
+</p>
+
+
+<p>
+<img src="./img/dplyr_logo_new.png" width="200" align="right">
+</p>
+
+<br></br>
+<br></br>
+<br></br>
+
+<p><center> ... and I am going to tell you <del>all</del> about it </center></p>
+
+<br></br>
+
+Note: these slides are available here (as rmarkdown or HTML document): https://github.com/courtiol/Rcourses
+
+
 ## Preambule
 
 Let's prepare some data for us to use during this session:
@@ -139,7 +165,6 @@ Major releases also tend to come with **exciting new features**
 <br></br>
 
 Note: **{dplyr}** version 0.9 has never existed!
-
 
 # Improvements in existing functions
 
