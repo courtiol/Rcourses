@@ -1,6 +1,6 @@
 ---
 title: "{dplyr} version 1.0.0"
-author: "Alexandre Courtiol (@rdataberlin) ![](./img/izw_logo.jpg){width=20%}"
+author: "Alexandre Courtiol (@rdataberlin)"
 date: "6/2/2020"
 output: 
   ioslides_presentation: 
