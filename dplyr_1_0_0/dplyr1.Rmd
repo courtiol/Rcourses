@@ -105,21 +105,21 @@ https://github.com/tidyverse/dplyr/graphs/contributors
 </p>
 
 
-## Short history of **{dplyr}**
+## Short (pre)history of **{dplyr}**
 
 **{dplyr}** version 1.0 is the result of 15 years of work by Hadley Wickham
 
-- 05/08/2005: **{reshape}** version 0.4, *"Flexibly reshape data"*
 
-- 08/10/2008: **{plyr}** version 0.1.1, *"Tools for splitting, applying and combining data"*
+| Relase date|   Package     |  Version | Description                                           |
+|:----------:|:-------------:|:--------:|:-----------------------------------------------------:|
+| 05/08/2005 | **{reshape}** |   0.4.0  | *"Flexibly reshape data"*                             |
+| 08/10/2008 |  **{plyr}**   |   0.1.1  | *"Tools for splitting, applying and combining data"*  |
+| 29/01/2014 |  **{dplyr}**  |   0.1.1  | *"dplyr: a grammar of data manipulation"*             |
+| 29/05/2020 |  **{dplyr}**  |   1.0.0  |                                                       |
 
 <!-- - 2008 Hadley finishes in PhD *"Practical tools for exploring data and models"*
 
 - 2013 Hadley starts working at RStudio -->
-
-- 29/01/2014: **{dplyr}** version 0.1.1, *"dplyr: a grammar of data manipulation"*
-
-- 29/05/2020: **{dplyr}** version 1.0.0
 
 <br></br>
 
@@ -466,19 +466,22 @@ iris_tbl %>%
 
 # New vignettes
 
-## There are a new interesting vignettes
+## Most vignettes are new
 
 ```{r, eval = FALSE}
 browseVignettes("dplyr")
 ```
 
-<p><center>![](./img/vignettes.png)</center></p>
+<p><center>
+<img src="./img/vignettes.png" width="500">
+</center></p>
 
 <br></br>
-Note: there is an interesting new vignette "From base R to dplyr" for those who only know base R
+
+Note: I highly recommend you to look at "Introduction to dplyr", "Two-table verbs", & (for old users) "From base R to dplyr"
 
 
-# **{dplyr}** in its ecosystem
+# New dependencies
 
 ## Dependencies of **{dplyr}** 1.0.0
 
@@ -508,9 +511,9 @@ The `-` highlights the packages that **{dplyr}** no longer depend on and the `+`
 The BIG change here is the addition of **{vctrs}**! (more on that later)
 
 
-## Increased restrictions
+## New versioning restrictions
 
-Several dependencies to the **latest** versions of some **tidyverse** packages: 
+Several dependencies are now restricted to the **latest** versions of the **tidyverse** packages: 
 ```
 magrittr (>= 1.5)
 tidyselect (>= 1.1.0)
@@ -519,11 +522,11 @@ rlang (>= 0.4.6)
 vctrs (>= 0.3.0)
 ```
 
-4 of these packages have been updated very recently, in view of the new release of **{dplyr}**
+4 of these packages have been updated very recently, under the influence of the preparation of the release of **{dplyr}** 1.0.0
 
 <br></br>
 
-Note: I won't talk about **{magrittr}** which has not been updated in a while and which simply provides the pipe (`%>%`) to **{dplyr}**
+Note: I won't talk about **{magrittr}** which has not been updated in some time (it is very stable) and which simply (but crucially) provides the pipe (`%>%`) to **{dplyr}**
 
 
 ## What is **{lifecycle}**?
