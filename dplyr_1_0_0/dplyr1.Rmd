@@ -669,9 +669,9 @@ map_df(tidyverse_packages(), ~ set_names(packageVersion(.x), nm = "version")) %>
 
 ### Interesting side effects:
 
-- better support for **factors** (despite having tried to kill those for years)
+- better support for **factors** (despite having tried to "kill" those for years)
 
-- better support for **row names** (despite having tried to kill those for years)
+- better support for **row names** (despite having tried to "kill" those for years)
 
 
 # Conclusion
@@ -710,3 +710,7 @@ Still too many breaking changes to my taste:
 
 Several changes seem to indicate a step back from an attempt at a pure tidy philosophy (https://tidyverse.tidyverse.org/articles/manifesto.html). Some changes seem to be going in the direction of base R approach, while some recent changes in base R are going the direction of **tidyverse** (e.g. R 4.0 no longer coerce characters to factors automatically, R-devel allows for combining factors with different levels...)
 
+
+## Source
+
+For comments and/or corrections, please leave issues at https://github.com/courtiol/Rcourses/
