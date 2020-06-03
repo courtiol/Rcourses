@@ -266,7 +266,7 @@ iris_tbl %>%
 
 ```{r}
 iris_tbl %>%
-  mutate(across(where(is.numeric), ~ .x * 100, .names = "{col}_mm"), .keep = "none")
+  mutate(across(where(is.numeric), ~ .x * 10, .names = "{col}_mm"), .keep = "none")
 ```
 
 <br></br>
