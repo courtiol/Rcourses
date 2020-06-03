@@ -706,7 +706,7 @@ Still too many breaking changes to my taste:
 
 - the grammar seems less tidy: `where()`, `across()` & `c_across()` are not verbs
 
-- introduction of new extra arguments within functions to promote flexibility means that such can do more than one thing
+- introduction of new extra arguments within functions to promote flexibility means that such functions can do more than one thing
 
-Several changes seem to indicate a step back from an attempt at a pure tidy philosophy (https://tidyverse.tidyverse.org/articles/manifesto.html). Some changes seem to be going in the direction of base R approach, while interestingly some recent changes in base R are going the direction of **tidyverse** (e.g. R 4.0 no longer coerce characters to factors automatically, R-devel allows for combining factors with different levels...)
+Several changes seem to indicate a step back from an attempt at a pure tidy philosophy (https://tidyverse.tidyverse.org/articles/manifesto.html). Some changes seem to be going in the direction of base R approach, while some recent changes in base R are going the direction of **tidyverse** (e.g. R 4.0 no longer coerce characters to factors automatically, R-devel allows for combining factors with different levels...)
 
